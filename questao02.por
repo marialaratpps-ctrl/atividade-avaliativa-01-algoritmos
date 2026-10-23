@@ -1,4 +1,12 @@
-    escreva("Digite a leitura anterior do medidor: ")
+programa
+{
+funcao inicio()
+{
+inteiro leituraAnterior, leituraAtual
+real tarifa, consumo, energia
+real bandeira, impostos, total
+
+   escreva("Digite a leitura anterior do medidor: ")
     leia(leituraAnterior)
 
     escreva("Digite a leitura atual do medidor: ")
